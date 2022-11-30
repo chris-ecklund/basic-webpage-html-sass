@@ -1,3 +1,20 @@
 header {
   background: yellow;
+  display: felx;
+  justify-content: center;
+  color: blue;
+}
+header button {
+  background: darkred;
+}
+header button:hover {
+  background: green;
+}
+
+header button {
+  background: red;
+}
+
+.contact button {
+  background: red;
 }/*# sourceMappingURL=style.css.map */
