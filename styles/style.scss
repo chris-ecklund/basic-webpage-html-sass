@@ -1,23 +1,12 @@
-$primaryBtn: red;
-$secondaryBtn: darkred;
-$textColor: blue;
+@import "./variables";
+@import "./header";
+@import "./footer";
 
-header {
-    background: yellow;
-    display: felx;
-    justify-content: center;
-    color: $textColor;
-    button{
-        background: $secondaryBtn;
-        &:hover{
-            background: green;
-        }
-    }
-}
 
-header button{
-    background: $primaryBtn;
-}
+
+
+
+
 
 .contact button{
     background: $primaryBtn;

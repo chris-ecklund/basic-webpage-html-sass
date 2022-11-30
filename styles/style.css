@@ -1,18 +1,37 @@
-header {
-  background: yellow;
-  display: felx;
+header, footer {
+  display: flex;
   justify-content: center;
-  color: blue;
+  align-items: center;
+  flex-direction: column;
+  background: tan;
+  height: 20vh;
+  color: lightblue;
 }
-header button {
+header button, footer button {
   background: darkred;
 }
-header button:hover {
+header button:hover, footer button:hover {
   background: green;
 }
 
-header button {
-  background: red;
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: tan;
+  height: 20vh;
+  color: lightblue;
+}
+header button, footer button {
+  background: darkred;
+}
+header button:hover, footer button:hover {
+  background: green;
+}
+
+footer {
+  background: yellow;
 }
 
 .contact button {
